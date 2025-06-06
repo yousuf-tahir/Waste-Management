@@ -1,0 +1,42 @@
+[
+  {
+    "input": "What is waste management?",
+    "response": "Waste management involves the collection, transportation, and disposal of garbage, sewage, and other waste materials."
+  },
+  {
+    "input": "Why is recycling important?",
+    "response": "Recycling helps conserve resources, reduces landfill waste, and lowers pollution levels."
+  },
+  {
+    "input": "How can I reduce plastic waste at home?",
+    "response": "Use reusable bags and containers, avoid single-use plastics, and recycle items properly."
+  },
+  {
+    "input": "What items can be composted?",
+    "response": "Fruit peels, vegetable scraps, coffee grounds, and eggshells are great for composting."
+  },
+  {
+    "input": "Can I recycle pizza boxes?",
+    "response": "Yes, but only if they are clean. Greasy or food-soiled parts should be composted or discarded."
+  },
+  {
+    "input": "How should I dispose of electronic waste?",
+    "response": "E-waste should be taken to certified recycling centers or electronic take-back programs."
+  },
+  {
+    "input": "What does biodegradable mean?",
+    "response": "Biodegradable items can naturally break down by microorganisms without harming the environment."
+  },
+  {
+    "input": "What are the 3 R's of waste management?",
+    "response": "Reduce, Reuse, and Recycle — these are key strategies for minimizing waste."
+  },
+  {
+    "input": "How can schools help in waste management?",
+    "response": "Schools can start recycling programs, educate students, and reduce single-use plastics in cafeterias."
+  },
+  {
+    "input": "What is hazardous waste?",
+    "response": "Hazardous waste includes chemicals, batteries, paints, and materials that are toxic or flammable."
+  }
+]

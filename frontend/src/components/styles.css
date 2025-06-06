@@ -1,0 +1,462 @@
+.binBuddy-link{
+  text-decoration: none;
+}
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0077c8;
+    padding: 10px 20px;
+    color: white;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center; /* Center-align the logo and text vertically */
+    gap: 10px; /* Add spacing between the logo and the text */
+  }
+  
+  .logo img {
+    height: 60px; /* Adjust height for consistency */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  .company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: baseline; /* Align "Bin" and "Buddy" properly */
+    flex-wrap: wrap; /* Wrap text if needed */
+  }
+  
+  .bin {
+    color: white; /* White for "Bin" */
+  }
+  
+  .buddy {
+    color: #12AD2B; /* Green for "Buddy" */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .start-service {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-service:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Banner styles */
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .banner-text {
+    max-width: 60%;
+  }
+  
+  .banner-text h1 {
+    font-size: 2rem;
+    color: #007a33;
+  }
+  
+  .banner-text p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .banner-text .sub-heading {
+    font-size: 0.5rem;
+    color: #007a33;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -20px;
+  }
+  
+  
+  .banner-buttons {
+    margin: 20px 0;
+  }
+  
+  .banner-buttons .start-service {
+    margin-right: 10px;
+  }
+  
+  .request-quote {
+    background-color: white;
+    color: #0077c8;
+    border: 2px solid #0077c8;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .request-quote:hover {
+    background-color: #1d98da;
+  }
+  
+  .contact-info {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .contact-info .phone-number {
+    color: #007a33;  /* Green color for the phone number */
+  }
+  
+  
+  .banner-image {
+    max-width: 35%;
+  }
+  
+  .circle-image {
+    width: 100%; /* Set the desired size */
+    height: auto; /* Ensure height matches width */
+    border-radius: 50%; /* Make it a circle */
+    object-fit: cover; /* Ensures the image scales correctly within the circle */
+    display: block; /* Avoids any inline spacing issues */
+  }
+  /* Video Embedded */
+  .video-container {
+    position: relative;
+    padding-bottom: 30%; /* Smaller aspect ratio (approx. 3:1) */
+    height: 0; /* Height is derived from padding-bottom */
+    overflow: hidden;
+    max-width: 600px; /* Maximum width for the video container */
+    width: 100%; /* Ensure responsiveness */
+    margin: 30px auto; /* Center the container with some margin */
+    background: #000; /* Optional: Adds a black background for loading */
+    border-radius: 10px; /* Rounded corners for a polished look */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; /* Removes the border around the video */
+    border-radius: 10px; /* Matches container's border radius */
+  }
+  
+  /* Awareness Campaign Heading */
+  .awareness-campaign {
+    background-color: #007a33; /* Dark green background */
+    color: white; /* White text color */
+    padding: 20px 30px; /* Padding for spacing inside the container */
+    
+   
+    margin: 20px auto; /* Center the div horizontally and add some margin */
+    text-align: center; /* Center the text inside the div */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  .awareness-campaign h2 {
+    font-size: 2rem; /* Larger font size for the heading */
+    font-weight: bold; /* Bold font for emphasis */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /*footer*/
+  .footer {
+      background-color: #004a99;
+      color: white;
+      padding: 40px 0;
+      font-size: 16px;
+  }
+    
+  .footer-container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 2000px;
+      margin: 0 auto;
+      padding: 20px;
+  }
+    
+  .footer-section h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #12AD2B; /* Green */
+  }
+    
+  .footer-section ul {
+      list-style-type: none;
+      padding-left: 0;
+  }
+    
+  .footer-section ul li {
+      margin: 8px 0;
+  }
+    
+  .footer-section ul li a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+      color: #ffcc00; /* Yellow hover effect */
+      text-decoration: underline;
+  }
+  
+  .footer-social {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .footer-social .btn-start-service,
+  .footer-social .btn-request-quote {
+      background-color: #ff0000; /* Red background */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      margin-top: 20px;
+      text-align: center;
+      transition: background-color 0.3s, transform 0.3s; /* Added transition for smooth effect */
+  }
+  
+  .footer-social .btn-start-service:hover,
+  .footer-social .btn-request-quote:hover {
+      background-color: #cc0000; /* Darker red on hover */
+      transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Button styles for Navbar */
+  .start-service {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .start-service:hover {
+    background-color: #cc0000;
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+   color: white;
+  }
+  .footer-link {
+    background: none;
+    border: none;
+    color: white; 
+    cursor: pointer;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  /* ComplaintForm.css */
+  
+  .complaint-form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .complaint-form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .complaint-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .complaint-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .complaint-form input,
+  .complaint-form select,
+  .complaint-form textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .complaint-form textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .submit-button:hover {
+    background-color: #e60000;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .logo {
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .nav-links a {
+      font-size: 1.1rem;
+    }
+  
+    .start-service {
+      align-self: center;
+      padding: 8px 12px;
+      font-size: 1rem;
+    }
+  
+    .banner {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .banner-text {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .banner-text h1 {
+      font-size: 1.8rem;
+    }
+  
+    .banner-text p {
+      font-size: 1rem;
+    }
+  
+    .banner-buttons {
+      justify-content: center;
+    }
+  
+    .banner-image {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo img {
+      height: 60px;
+    }
+  
+    .company-name {
+      font-size: 1rem;
+    }
+  
+    .nav-links {
+      gap: 10px;
+    }
+  
+    .nav-links a {
+      font-size: 0.9rem;
+    }
+  
+    .start-service {
+      font-size: 0.9rem;
+      padding: 6px 8px;
+    }
+  
+    .request-quote {
+      font-size: 0.9rem;
+      padding: 6px 8px;
+    }
+  
+    .banner-text h1 {
+      font-size: 1.4rem;
+    }
+  
+    .banner-text p {
+      font-size: 0.85rem;
+    }
+  
+    .contact-info {
+      font-size: 0.8rem;
+      margin-top: 10px;
+    }
+  
+    .banner-image {
+      max-width: 100%;
+      margin-top: 15px;
+    }
+  }
+  
+  

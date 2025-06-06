@@ -1,0 +1,122 @@
+.about-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.about-header h1 {
+    text-align: center;
+    color: #004a99; /* Deep blue for the title */
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+  
+.about-header p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Section Headings */
+.about-section h2 {
+    color: #4CAF50; /* Eco-friendly green for headings */
+    font-size: 24px;
+    margin-bottom: 15px;
+    animation: slideUp 1s ease-out;
+}
+
+/* Lists */
+.about-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+  
+.about-section ul li {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-section ul li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.contact-section ul li a {
+    color: #004a99;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+  
+.contact-section ul li a:hover {
+    color: #12AD2B; /* Change to green on hover */
+    text-decoration: underline;
+}
+
+/* FAQ Section */
+.faq-section {
+    margin-top: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #e6f7ff; /* Light blue background */
+    color: #004a99;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.faq-question:hover {
+    background-color: #d5efff; /* Slightly darker blue on hover */
+}
+
+.faq-question.open {
+    background-color: #cce7ff; /* Even darker blue for open state */
+}
+
+.faq-toggle-icon {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.faq-answer {
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+    border-radius: 0 0 5px 5px;
+    box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out;
+    max-height: 0; /* Initially hidden */
+    overflow: hidden; /* Prevent overflow when hidden */
+    transition: max-height 0.3s ease-in-out; /* Smooth transition */
+}
+
+.faq-answer.open {
+    max-height: 200px; /* Adjust this as needed for the height of the content */
+}
