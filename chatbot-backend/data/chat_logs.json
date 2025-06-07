@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2025-06-07T17:06:32.057937",
+    "user": "how do i report a full bin?",
+    "bot": "You can use the /report command or contact your local authority."
+  },
+  {
+    "timestamp": "2025-06-07T17:07:13.141629",
+    "user": "what's waste management?",
+    "bot": "? Waste management involves the collection, transportation, and disposal of garbage, sewage, or other waste materials."
+  },
+  {
+    "timestamp": "2025-06-07T17:10:45.037654",
+    "user": "hi",
+    "bot": "Hello, how are you today?"
+  },
+  {
+    "timestamp": "2025-06-07T17:10:58.419175",
+    "user": "what is waste management?",
+    "bot": "Waste management is the process of collecting, transporting, and disposing of waste in a safe and environmentally friendly way."
+  },
+  {
+    "timestamp": "2025-06-07T17:24:57.963902",
+    "user": "hi",
+    "bot": "Hello, how are you?"
+  },
+  {
+    "timestamp": "2025-06-07T17:25:13.298335",
+    "user": "what is waste management",
+    "bot": "\u201d Waste management involves the collection, transportation, and disposal of garbage, sewage, or other waste materials. \u201d"
+  },
+  {
+    "timestamp": "2025-06-07T17:25:31.504117",
+    "user": "do you know any programming languages",
+    "bot": ",,,,"
+  },
+  {
+    "timestamp": "2025-06-07T18:34:35.069917",
+    "user": "Find path from (0,0) to (3,3)",
+    "bot": "\ud83d\udee3\ufe0f Shortest path: [(0, 0), (0, 1), (0, 2), (1, 2), (2, 2), (2, 3), (3, 3)]"
+  },
+  {
+    "timestamp": "2025-06-07T18:35:20.198229",
+    "user": "Find path from (0,0) to (2,0)",
+    "bot": "\ud83d\udee3\ufe0f Shortest path: [(0, 0), (0, 1), (0, 2), (1, 2), (2, 2), (2, 1), (2, 0)]"
+  },
+  {
+    "timestamp": "2025-06-07T18:35:43.881688",
+    "user": "Find path from (3,0) to (0,3)",
+    "bot": "\ud83d\udee3\ufe0f Shortest path: [(3, 0), (2, 0), (2, 1), (2, 2), (1, 2), (0, 2), (0, 3)]"
+  },
+  {
+    "timestamp": "2025-06-07T18:42:40.961757",
+    "user": "Find path from main entrance to recycling zone",
+    "bot": "\u2757 Please format the command like: 'path from (0,0) to (3,3)'"
+  },
+  {
+    "timestamp": "2025-06-07T18:42:45.709082",
+    "user": "Find path from main entrance to recycling zone",
+    "bot": "\u2757 Please format the command like: 'path from (0,0) to (3,3)'"
+  },
+  {
+    "timestamp": "2025-06-07T18:46:27.034300",
+    "user": "Find path from main entrance to recycling zone",
+    "bot": "\ud83d\udee3\ufe0f Shortest path from 'main entrance' to 'recycling zone': [(0, 0), (0, 1), (0, 2), (1, 2), (2, 2), (2, 3), (3, 3)]"
+  },
+  {
+    "timestamp": "2025-06-07T18:54:56.814465",
+    "user": "Find path from main entrance to recycling zone",
+    "bot": "\ud83d\udee3\ufe0f Starting from **main entrance**, pass through loading dock, and finally reach **recycling zone**."
+  },
+  {
+    "timestamp": "2025-06-07T18:57:06.120047",
+    "user": "Find path from main entrance to hazardous waste",
+    "bot": "\ud83d\udeab No path found between those points."
+  },
+  {
+    "timestamp": "2025-06-07T18:57:39.755971",
+    "user": "Find path from main entrance to cafeteria",
+    "bot": "\ud83d\udeab No path found between those points."
+  },
+  {
+    "timestamp": "2025-06-07T18:57:55.385614",
+    "user": "Find path from main entrance to security office",
+    "bot": "\ud83d\udee3\ufe0f Starting from **main entrance**, pass through information desk, reception, and finally reach **security office**."
+  },
+  {
+    "timestamp": "2025-06-07T19:00:07.772291",
+    "user": "Find path from main entrance to security office",
+    "bot": "\ud83d\udee3\ufe0f Starting from **main entrance**, pass through information desk, reception, and finally reach **security office**."
+  }
+]
