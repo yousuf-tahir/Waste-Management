@@ -1,3 +1,9 @@
+import json
+
+# Load FAQ
+with open("faq.json", "r") as f:
+    faq_data = json.load(f)
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -13,10 +19,15 @@ tokenizer.pad_token = tokenizer.eos_token
 @app.route("/chat", methods=["POST"])
 def chat():
     try:
+        
         user_input = request.json.get("message", "").strip()
         if not user_input:
             return jsonify({"reply": "Please ask a question about waste management."})
-
+        
+        #Try exact FAQ match
+        faq_reply = faq_data.get(user_input.lower())
+        if faq_reply:
+            return jsonify({"reply": faq_reply})
         # Format exactly like training
         prompt = f"Input: {user_input}{tokenizer.eos_token}Response:"
         
