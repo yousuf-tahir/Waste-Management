@@ -32,12 +32,17 @@ def log_chat(user_message, bot_reply):
         with open("chat_logs.json", "w") as file:
             json.dump([log_entry], file, indent=2)
 
+from datetime import datetime
+
 @app.route("/chat", methods=["POST"])
 def chat():
     try:
         user_input = request.json.get("message", "").strip()
         if not user_input:
-            return jsonify({"reply": "Please ask a question about waste management."})
+            return jsonify({
+                "reply": "Please ask a question about waste management.",
+                "timestamp": datetime.now().isoformat()
+            })
 
         # Check FAQ (case-insensitive match)
         faq_reply = None
@@ -78,10 +83,14 @@ def chat():
         # Log the conversation
         log_chat(user_input, response)
 
-        return jsonify({"reply": response})
+        timestamp = datetime.now().isoformat()
+
+        # return reply + timestamp together
+        return jsonify({"reply": response, "timestamp": timestamp})
 
     except Exception as e:
-        return jsonify({"reply": f"Error: {str(e)}"}), 500
+        return jsonify({"reply": f"Error: {str(e)}", "timestamp": datetime.now().isoformat()}), 500
+
 
 if __name__ == "__main__":
     app.run(port=5001, debug=True)

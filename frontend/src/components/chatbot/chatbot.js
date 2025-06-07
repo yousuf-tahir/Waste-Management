@@ -31,11 +31,16 @@ const ChatBot = () => {
         body: JSON.stringify({ message: input }),
       });
       const data = await response.json();
-      const botMessage = { sender: "bot", text: data.reply || "..." };
+      const botMessage = { 
+        sender: "bot", 
+        text: data.reply || "...", 
+        timestamp: data.timestamp || null 
+      };
       setTimeout(() => {
         setMessages((prev) => [...prev, botMessage]);
         setIsTyping(false);
       }, 1000); // Simulate typing delay
+      
     } catch (error) {
       const errorMessage = { sender: "bot", text: "An error occurred." };
       setTimeout(() => {
@@ -53,20 +58,20 @@ const ChatBot = () => {
       </div>
       <div className="chat-messages">
         {messages.map((msg, index) => (
-          <div
-            key={index}
-            className={`message-container ${msg.sender}`}
-          >
+          <div key={index} className={`message-container ${msg.sender}`}>
             <div className={`profile-pic ${msg.sender}`}>
               {msg.sender === "user" ? "👤" : "🤖"}
             </div>
-            <div
-              className={`chat-message ${msg.sender}`}
-            >
+            <div className={`chat-message ${msg.sender}`}>
               {msg.text}
+              {/* Show timestamp if bot message and timestamp exists */}
+              {msg.sender === "bot" && msg.timestamp && (
+                <div className="timestamp">{new Date(msg.timestamp).toLocaleTimeString()}</div>
+              )}
             </div>
           </div>
         ))}
+
         {isTyping && (
           <div className="message-container bot">
             <div className="profile-pic bot">🤖</div>

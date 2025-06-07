@@ -268,3 +268,10 @@
 .chat-messages::-webkit-scrollbar-thumb:hover {
   background: var(--primary-color);
 }
+
+.timestamp {
+  font-size: 0.7rem;
+  color: gray;
+  margin-top: 4px;
+  font-style: italic;
+}
