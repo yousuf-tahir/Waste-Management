@@ -88,5 +88,52 @@
     "timestamp": "2025-06-07T19:00:07.772291",
     "user": "Find path from main entrance to security office",
     "bot": "\ud83d\udee3\ufe0f Starting from **main entrance**, pass through information desk, reception, and finally reach **security office**."
+  },
+  {
+    "timestamp": "2025-06-09T00:27:28.738541",
+    "user": "hi",
+    "bot": "Hello, how are you these days?"
+  },
+  {
+    "timestamp": "2025-06-09T00:28:34.775366",
+    "user": "what is waste management",
+    "bot": "\u201d Waste management involves the collection, transportation, and disposal of garbage, sewage, or other waste materials. \u201d"
+  },
+  {
+    "timestamp": "2025-06-09T00:30:36.959497",
+    "user": "guide me the path from main entrance to reception",
+    "bot": "\ud83d\udee3\ufe0f Starting from **main entrance**, pass through information desk, and finally reach **reception**."
+  },
+  {
+    "user": "What is waste management?",
+    "bot": "Waste management is the process of collecting, transporting, and disposing of waste in a safe and environmentally friendly way."
+  },
+  {
+    "user": "What can I recycle here?",
+    "bot": "You can recycle plastic, paper, and glass items."
+  },
+  {
+    "user": "how can i go from cafeteria to reception",
+    "bot": ",,,, and, are the 3 R's of cafeterias."
+  },
+  {
+    "timestamp": "2025-06-09T03:16:34.838395",
+    "user": "how can i go from cafeteria to reception",
+    "bot": ",,,, and,"
+  },
+  {
+    "timestamp": "2025-06-09T03:16:56.642821",
+    "user": "route from cafeteria to reception",
+    "bot": "Receive food aid at home or cafeteria programs, or recycle food items properly."
+  },
+  {
+    "timestamp": "2025-06-09T03:17:13.674153",
+    "user": "cafeteria to reception",
+    "bot": ",,,, and,"
+  },
+  {
+    "timestamp": "2025-06-09T03:18:52.690953",
+    "user": "path from cafeteria to reception",
+    "bot": "\ud83d\udee3\ufe0f Path: Start at cafeteria, then go via main entrance \u2192 information desk to reach reception"
   }
 ]
