@@ -135,5 +135,170 @@
     "timestamp": "2025-06-09T03:18:52.690953",
     "user": "path from cafeteria to reception",
     "bot": "\ud83d\udee3\ufe0f Path: Start at cafeteria, then go via main entrance \u2192 information desk to reach reception"
+  },
+  {
+    "timestamp": "2025-06-10T21:46:45.519106",
+    "user": "path from cafeteria to recycling",
+    "bot": "\u2757 Please specify both start and end locations"
+  },
+  {
+    "timestamp": "2025-06-10T21:46:57.250442",
+    "user": "path from cafeteria to reception",
+    "bot": "\u2757 Please specify both start and end locations"
+  },
+  {
+    "timestamp": "2025-06-10T23:29:38.645122",
+    "user": "path from cafeteria to reception",
+    "bot": "\u2757 Please specify both start and end locations"
+  },
+  {
+    "timestamp": "2025-06-10T23:30:11.418299",
+    "user": "path from main entrance to information desk",
+    "bot": "\u2757 Please specify both start and end locations"
+  },
+  {
+    "timestamp": "2025-06-10T23:31:48.369152",
+    "user": "how can I go from cafeteria to reception",
+    "bot": ",,,, and, are the 3 R's of waste management?"
+  },
+  {
+    "timestamp": "2025-06-10T23:34:13.421850",
+    "user": "how to get from cafeteria to reception",
+    "bot": "\ud83d\uddfa\ufe0f Path:\ncafeteria \u2192 main entrance \u2192 information desk \u2192 reception"
+  },
+  {
+    "timestamp": "2025-06-10T23:34:38.128916",
+    "user": "how about to security office?",
+    "bot": ",,,, and,"
+  },
+  {
+    "timestamp": "2025-06-10T23:50:24.493873",
+    "user": "how to get from cafeteria to reception",
+    "bot": "\ud83d\uddfa\ufe0f Path:\ncafeteria \u2192 main entrance \u2192 information desk \u2192 reception"
+  },
+  {
+    "timestamp": "2025-06-10T23:50:38.601081",
+    "user": "how about to security office",
+    "bot": "?"
+  },
+  {
+    "timestamp": "2025-06-10T23:51:42.448155",
+    "user": "how about to security office?",
+    "bot": "???"
+  },
+  {
+    "timestamp": "2025-06-10T23:57:33.299508",
+    "user": "how to get from cafeteria to reception",
+    "bot": "\ud83d\uddfa\ufe0f Path:\ncafeteria \u2192 main entrance \u2192 information desk \u2192 reception"
+  },
+  {
+    "timestamp": "2025-06-10T23:57:42.657290",
+    "user": "how about to security office",
+    "bot": ",,,,"
+  },
+  {
+    "timestamp": "2025-06-10T23:58:54.344900",
+    "user": "how about to security office?",
+    "bot": "?? What are the 3 R's of waste management? E, F, and G? How can I reduce waste at home? I.use. these.items.as.refrigerators.and.clean.room.seks.so.harass."
+  },
+  {
+    "timestamp": "2025-06-11T00:02:44.095382",
+    "user": "Request URL: http://127.0.0.1:5001/chat Request Method: POST Status Code: 200 OK Remote Address: 127.0.0.1:5001 Referrer Policy: strict-origin-when-cross-origin access-control-allow-credentials: true access-control-allow-origin: http://localhost:3000 connection: close content-length: 217 content-type: application/json date: Tue, 10 Jun 2025 18:58:54 GMT server: Werkzeug/3.1.3 Python/3.12.5 vary: Origin, Cookie content-type: application/json referer: http://localhost:3000/ user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+    "bot": "Input: Request URL: http://127.0.0.1:5001/chat Request Method: POST Status Code: 200 OK Remote Address: 127.0.0.1:5001 Referrer Policy: strict-origin-when-cross-origin access-control-allow-credentials: true access-control-allow-origin: http://localhost:3000 connection: close content-length: 217 content-type: application/json date: Tue, 10 Jun 2025 18:58:54 GMT server: Werkzeug/3.1.3 Python/3.12.5 vary: Origin"
+  },
+  {
+    "timestamp": "2025-06-11T00:05:58.267063",
+    "user": "how to get from cafeteria to reception",
+    "bot": "\ud83d\uddfa\ufe0f Path:\ncafeteria \u2192 main entrance \u2192 information desk \u2192 reception"
+  },
+  {
+    "timestamp": "2025-06-11T00:06:08.531352",
+    "user": "how about to security office?",
+    "bot": "?? What does biodegradable mean? How can I reduce plastic waste at home? I can recycle items easily without harming the environment."
+  },
+  {
+    "timestamp": "2025-06-11T00:06:50.529498",
+    "user": "how about to security office",
+    "bot": ",,,, and, are the 3, respectively, key words for key items, items that are hazardous or hazardous waste, or items for hazardous wastes."
+  },
+  {
+    "timestamp": "2025-06-11T00:07:50.008908",
+    "user": "how to get to security office?",
+    "bot": "\u274c Unknown starting location: 'how to get'. Valid options: ['main entrance', 'cafeteria', 'paper recycling', 'metal recycling', 'information desk', 'parking lot', 'reception', 'loading dock', 'plastic recycling', 'compost area', 'security office', 'electronics recycling', 'recycling zone']"
+  },
+  {
+    "timestamp": "2025-06-11T00:09:02.027008",
+    "user": "how to get from cafeteria to reception",
+    "bot": "\ud83d\uddfa\ufe0f Path:\ncafeteria \u2192 main entrance \u2192 information desk \u2192 reception"
+  },
+  {
+    "timestamp": "2025-06-11T00:09:09.801216",
+    "user": "how to get to security office?",
+    "bot": "\u274c Unknown starting location: 'how to get'. Valid options: ['main entrance', 'cafeteria', 'paper recycling', 'metal recycling', 'information desk', 'parking lot', 'reception', 'loading dock', 'plastic recycling', 'compost area', 'security office', 'electronics recycling', 'recycling zone']"
+  },
+  {
+    "timestamp": "2025-06-11T00:19:31.202978",
+    "user": "how to get from cafeteria to reception",
+    "bot": "\ud83d\uddfa\ufe0f Path:\ncafeteria \u2192 main entrance \u2192 information desk \u2192 reception"
+  },
+  {
+    "timestamp": "2025-06-11T00:19:38.248661",
+    "user": "how to get to security office?",
+    "bot": "\u274c Unknown starting location: 'how to get'. Valid options: ['main entrance', 'cafeteria', 'paper recycling', 'metal recycling', 'information desk', 'parking lot', 'reception', 'loading dock', 'plastic recycling', 'compost area', 'security office', 'electronics recycling', 'recycling zone']"
+  },
+  {
+    "timestamp": "2025-06-11T00:24:15.420634",
+    "user": "My name is Yousuf.",
+    "bot": "?"
+  },
+  {
+    "timestamp": "2025-06-11T00:24:26.536380",
+    "user": "What\u2019s my name?",
+    "bot": "\u201d What is biodegradable? \u201d"
+  },
+  {
+    "timestamp": "2025-06-11T00:59:28.076712",
+    "user": "path from cafeteria to reception",
+    "bot": "\ud83d\uddfa\ufe0f Path:\ncafeteria \u2192 main entrance \u2192 information desk \u2192 reception"
+  },
+  {
+    "timestamp": "2025-06-11T00:59:40.292303",
+    "user": "then to security office",
+    "bot": ",,,,"
+  },
+  {
+    "timestamp": "2025-06-11T00:59:55.769265",
+    "user": "security office",
+    "bot": "Yes, but only if they are clean. Greasy or food-soiled parts should be composted or discarded."
+  },
+  {
+    "timestamp": "2025-06-11T01:00:27.346379",
+    "user": "path to security",
+    "bot": "\u274c Unknown starting location: 'path'. Valid options: ['main entrance', 'cafeteria', 'paper recycling', 'metal recycling', 'information desk', 'parking lot', 'reception', 'loading dock', 'plastic recycling', 'compost area', 'security office', 'electronics recycling', 'recycling zone']"
+  },
+  {
+    "timestamp": "2025-06-11T01:00:44.904340",
+    "user": "security",
+    "bot": "DDoS attacks are the single biggest threat to the environment."
+  },
+  {
+    "timestamp": "2025-06-11T01:14:47.449775",
+    "user": "hi",
+    "bot": "Hello! How can I help you today?"
+  },
+  {
+    "timestamp": "2025-06-11T01:14:58.734071",
+    "user": "path from cafeteria to reception",
+    "bot": "\ud83d\uddfa\ufe0f Path:\ncafeteria \u2192 main entrance \u2192 information desk \u2192 reception"
+  },
+  {
+    "timestamp": "2025-06-11T01:40:17.169861",
+    "user": "hi",
+    "bot": "Hello! How can I help you today?"
+  },
+  {
+    "timestamp": "2025-06-11T01:41:10.463263",
+    "user": "what is waste management",
+    "bot": "\u201d Waste management involves the collection, transportation, and disposal of garbage, sewage, or other waste materials. \u201d"
   }
 ]
