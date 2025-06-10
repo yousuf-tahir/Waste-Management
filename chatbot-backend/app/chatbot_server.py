@@ -225,6 +225,17 @@ def chat():
                     "timestamp": datetime.now().isoformat()
                 })
 
+        # Handle location listing requests
+        location_keywords = ["list locations", "show locations", "all locations", "available locations", "what locations", "locations list"]
+        if any(keyword in lower_input for keyword in location_keywords):
+            locations_list = "📍 **Available Locations:**\n\n" + "\n".join([f"• {loc.title()}" for loc in sorted(locations.keys())])
+            locations_list += "\n\nYou can ask for directions like: 'path from cafeteria to reception'"
+            
+            return jsonify({
+                "reply": locations_list,
+                "timestamp": datetime.now().isoformat()
+            })
+
         # Handle other types of queries
         response = (
             handle_logic(user_input) or
